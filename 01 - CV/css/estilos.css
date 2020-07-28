@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+/* Default tags */
+
+:root {
+  --main-bg-color:  #1e1d1e;
+  --main-green-color:  #009661;
+  --main-blue-color: #005092;
+}
+
+mark {
+  background-color: var(--main-green-color)
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 20px;
+  font-family: 'Red rose';
+  background-color: var(--main-bg-color);
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+h1 {
+  text-align: center;
+  font-style: italic;
+  color: var(--main-bg-color);
+}
+
+h2 {
+  font-weight: normal;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  color: var(--main-blue-color);
+}
+
+h4 {
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+p {
+  text-align: justify;
+  font-size: 14px;
+  line-height: 23px;
+  
+  margin-top: 20px;
+}
+
+figure {
+  text-align: center;
+}
+
+caption {
+  color: white;
+}
+
+a:visited, a:link {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  margin: auto;
+  width: 960px;
+  text-align: center;
+
+  background-color: white;
+}
+
+li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+/* Main page */ 
+
+.backTop {
+  position: fixed;
+  width: 100px;
+  padding: 10px;
+
+  left: 200px;
+
+  font-size: 20px;
+  text-align: center;
+  border-style: solid;
+}
+
+a.backTop:hover {
+  color: var(--main-green-color);
+}
+
+.navMenu{
+  margin: auto;
+  width: 960px;
+  text-align: center;
+
+  background-color: white;
+
+  margin-top: 20px;
+}
+
+.navMenu a{
+  color: var(--main-bg-color);
+
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin: 40px;
+
+  padding: 30px;
+}
+
+.navMenu a:hover {
+  color: var(--main-green-color);
+}
+
+.photoDiv {
+  position: relative;
+  margin: auto;
+  left: 346px;
+}
+.photo {
+  width: 200px;
+  border-radius: 50%;
+  border-style: solid;
+}
+.personalData {
+  width: 960px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  border-style: dotted;
+  border-color: white;
+  border-width: 5px;
+  padding: 30px;
+}
+
+
+.socialMedia {
+  width: 960px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+img.icon:hover {
+  border-style: solid;
+  border-color: white;
+
+}
+
+.icon {
+  display: inline-grid;
+  position: relative;
+  left: 310px;
+  border-radius: 50%;
+
+  width: 50px;
+  margin: 18px;
+  
+}
+
+.profile {
+  width: 960px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  border-style: dotted;
+  border-color: white;
+  border-width: 5px;
+  padding: 30px;
+}
+
+.hobbiesLink {
+  position: relative;
+  margin: auto;
+  left: 400px;
+
+  border-style: solid;
+
+  font-size: 25px;
+  color: var(--main-green-color) !important;
+}
+
+a.hobbiesLink:hover {
+  color: white !important;
+}
+
+.graduation {
+  width: 960px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  border-style: dotted;
+  border-color: white;
+  border-width: 5px;
+  padding: 30px;
+}
+
+.experiences {
+  width: 960px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  border-style: dotted;
+  border-color: white;
+  border-width: 5px;
+  padding: 30px;
+}
+
+.subTitle {
+  color: var(--main-green-color);
+}
+
+/* Hobbies page */
+
+.links {
+  position: absolute;
+  width: 300px;
+
+  margin-left: 23%;
+  margin-top: 73px;
+
+  border-style: solid;
+  border-color: white;
+}
+
+.hobbies {
+  margin-left: 41.5%;
+  width: 630px !important;
+  padding: 30px;
+
+  border-style: solid;
+  border-color: white;
+}
+
+.hobbie {
+  width: 250px;
+  margin-top: 10px;
+  margin-left: 19px;
+
+  display: inline-grid;
+  grid-template-columns: 300px 300px;
+
+  border-style: solid;
+  border-color: white;
+}
+
+.hobbie:hover {
+  border-color: var(--main-green-color);
+}
+
+.hobbieImg {
+  width: 244px;
+  height: 193px;
+  vertical-align: middle;
+}
+
+
+.myVideo {
+  width: 530px;
+  text-align: center;
+
+  margin-left: 15.2px;
+  margin-top: 5%;
+
+  border-style: solid;
+  border-color: white;
+}
+
+.myAudio {
+  margin-top: 30px;
+  text-align: center;
+
+  margin-left: 135px;
+}
+
+
+/* Footer */
+
+#goBack {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+
+  color: var(--main-bg-color);
+}
+
+a.goBack:hover {
+  color: var(--main-blue-color) !important;
+}
+
+footer {
+  flex-shrink: 0;
+  text-align: center;
+  background-color: white;
+
+  margin: auto;
+  width: 960px;
+}
+
+footer p {
+  color: #1e1d1e;
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Form Styles */
+
+.formHeader {
+  margin-top: 10px;
+}
+
+form {
+  position: relative;
+  width: 960px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+  border-style: dotted;
+  border-color: white;
+  border-width: 5px;
+  padding: 30px;
+
+  color: white;
+
+  text-align: center;
+
+  margin-bottom: 500px;
+
+}
+
+input[type="text"], input[type="email"], textarea {
+  color: black;
+  font-size: 20px;
+  width: 360px;
+}
+
+.comments {
+  resize: vertical;
+}
+
+input:focus {
+  background-color: var(--main-green-color)
+}
+
+.back01 {
+  position: fixed;
+  width: 100px;
+  padding: 10px;
+
+  left: 200px;
+
+  font-size: 20px;
+  text-align: center;
+  border-style: solid;
+}
+
+a.back01:hover {
+  color: var(--main-green-color);
+}
+
+.back02 {
+  position: fixed;
+  width: 100px;
+  padding: 10px;
+
+  left: 350px;
+
+  font-size: 20px;
+  text-align: center;
+  border-style: solid;
+}
+
+a.back02:hover {
+  color: var(--main-blue-color);
+}
+
+.back03 {
+  position: fixed;
+  width: 100px;
+  padding: 10px;
+
+  left: 350px;
+  top: 160px;
+
+  font-size: 20px;
+  text-align: center;
+  border-style: solid;
+}
+
+a.back03:hover {
+  color: purple;
+}
+
+label {
+  font-size: 18px;
+  margin-right: 2px;
+}
+
+button {
+  background-color: var(--main-green-color);
+  width: 100px;
+}

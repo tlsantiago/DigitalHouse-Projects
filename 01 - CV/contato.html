@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/estilos.css" rel="stylesheet">
+  <title>Contato</title>
+</head>
+
+<body>
+  <a class="back01" href="index.html">Voltar ao currículo</a>
+  <a class="back02" href="hobbies.html">Ver Hobbies</a>
+
+
+  <header class="formHeader">
+  <h1>Formulário de contato</h1>
+  </header>
+
+  <form>
+    <h2>Nome, sobrenome e e-mail</h2>
+    <input type="text" name="nome" value="" placeholder="Nome" required />
+    <br><br>
+    <input type="text" name="sobrenome" value="" placeholder="Sobrenome" required />
+    <br><br>
+    <input type="email" name="email" value="" placeholder= "email@email.com" required />
+    <br><br>
+
+    <label for="Assunto">Assunto</label>
+    <select name="Assunto">
+    <optgroup label="Assunto">
+      <option value="01">Teste 1</option>
+      <option value="02">Teste 2</option>
+      <option value="03">Teste 3</option>
+    </optgroup>
+  </select>
+  <br><br>
+
+  <h2>Gênero</h2>
+  <label>Masculino</label>
+  <input type="radio" name="gender" value="Masculino">
+  <br>
+  <label>Feminino</label>
+  <input type="radio" name="gender" value="Feminino">
+  <br>
+  <label>Prefiro não responder</label>
+  <input type="radio" name="gender" value="Prefiro não responder">
+
+  <br><br>
+
+  <h2>Hobbies</h2>
+  <label>Música</label>
+  <input type="checkbox" name="passatempos" value="Música">
+  <br>
+  <label>Futebol</label>
+  <input type="checkbox" name="passatempos" value="Futebol">
+  <br>
+  <label>Natação</label>
+  <input type="checkbox" name="passatempos" value="Natação">
+  <br>
+  <label>Videogames</label>
+  <input type="checkbox" name="passatempos" value="Videogames">
+  <br>
+  <label>Ler</label>
+  <input type="checkbox" name="passatempos" value="Ler">
+
+  <br><br>
+
+  <textarea name="comentários" placeholder="Comentários" class="comments" required> </textarea>
+  <br><br>
+
+  <button type="submit">Enviar</button>
+  <button type="reset">Limpar</button>
+
+  </form>
+
+</body>
+</html>
