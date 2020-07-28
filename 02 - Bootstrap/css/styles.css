@@ -1,0 +1,153 @@
+:root {
+  --main-bg-color: #0b0227;
+  --main-btn-color: #3500D3;
+  --main-bodr-color: #240090;
+  --main-hvr-color: #190061;
+}
+
+* {
+  color: white;
+  text-decoration: none;
+}
+
+html {
+  width: 99%;
+}
+
+body {
+  background-color: var(--main-bg-color); 
+}
+
+.logo {
+  position: relative;
+  width: 250px;
+
+  margin: 0 auto;
+  border-radius: 100%;
+
+}
+
+.d-flex {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a {
+  padding: 3px 60px;
+  background-color: var(--main-btn-color);
+  margin: 2px;
+  color: white;
+}
+
+a:hover {
+  color: white;
+  background-color: var(--main-hvr-color) ;
+}
+
+.backContainer {
+  height: 400px !important;
+}
+
+.mainBackground {
+  display: flex;  
+  width: 1090px;
+  height: 100%;
+
+  margin: 0 auto !important;
+  margin-top: 10px !important;
+
+  border-style: solid;
+  border-color: var(--main-bodr-color);
+}
+
+.productRow {
+  display: flex;
+  width: 62%;
+
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.card {
+  background-color: transparent;
+  border-style: none;
+  width: 300px;
+  max-height: 350px;
+
+  margin: 0 auto;
+  margin-top: 30px;
+
+}
+
+.card img {
+  width: auto;
+  height: 200px;
+
+  border-style: solid;
+  border-color: var(--main-bodr-color);
+}
+
+.btn {
+  background-color: var(--main-btn-color);
+  border-style: none;
+}
+
+footer {
+  width: 62%;
+  height: 20%;
+  background-color: var(--main-btn-color);
+  border-radius: 20px 20px 0 0;
+
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.footerNav {
+  padding: 20px;
+
+  text-align: center;
+}
+
+.footerNav a {
+  font-weight: 600;
+  background-color: transparent;
+}
+
+
+
+
+/*Media Queries*/
+
+@media (max-width: 768px) {
+  .backContainer, .mainBackground {
+    display: none;
+  }
+
+}
+
+@media (max-width: 420px) {
+
+  body {
+    width: 97%;
+  }
+  .card {
+    display: flex;
+    margin: -40px;
+    margin-top: 60px;
+  }
+
+  footer {
+    margin-top: 60px;
+  }
+
+  .footerNav a {
+    font-weight: 600;
+    background-color: transparent;
+    margin-left: -18px !important;
+  }
+}
