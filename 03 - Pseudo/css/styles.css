@@ -1,0 +1,66 @@
+:root {
+  --main-background-color: #0B0C10;
+  --secnd-background-color:#1F2833;
+  --main-border-color: #061f1d;
+  --secnd-border-color: #197c76;
+}
+
+body {
+  background-color: var(--main-background-color);
+}
+
+.mainContainer {
+  display: flex;
+  width: 820px;
+  height: 750px;
+
+  border-style: solid;
+  border-color: var(--secnd-background-color);
+  margin: auto;
+  padding: 50px;
+
+  border-radius: 10px;
+}
+
+.compContainer {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+
+  border-style: solid;
+  border-color: var(--main-border-color);
+
+  margin: auto;
+
+  border-radius: 20px;
+}
+
+.composer {
+  display: flex;
+  flex-direction: row;
+
+  padding: 20px;
+}
+
+.picture {
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+}
+
+h4, p {
+  color: #F2F2F2;
+  margin: 25px;
+
+  text-align: center !important;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+hr {
+  width: 90%;
+  height: 1px;
+
+  background-color: var(--secnd-border-color) !important;
+  border: none;
+}
