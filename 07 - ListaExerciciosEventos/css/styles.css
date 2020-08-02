@@ -1,0 +1,50 @@
+body {
+  background-image: url(/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  margin: 0 auto !important;
+  height: 100vh;
+}
+
+.myBtns, .btn {
+  width: 200px;
+  height: 50px;
+}
+
+.myImgs {
+  border-radius: 10%;
+  margin: 0 auto;
+  margin-top: 100px;
+
+  filter: grayscale(100%);
+
+  height: 300px;
+  width: 250px;
+
+  z-index: 1;
+}
+
+form {
+  width: 50%;
+  border-style: dotted;
+
+
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+input {
+  width: 70% !important;
+  margin: 0 auto !important;
+}
+
+label {
+  font-size: 25px;
+  font-weight: bold;
+
+  text-align: center;
+}
