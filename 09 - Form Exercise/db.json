@@ -1,0 +1,29 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "Walter White",
+      "age": 52,
+      "picture": "https://upload.wikimedia.org/wikipedia/en/6/65/Walter_White2.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Darth Vader",
+      "age": "46",
+      "picture": "https://p2.trrsf.com/image/fget/cf/1200/1200/filters:quality(85)/images.terra.com/2018/12/04/armadura-de-darth-vader-abre.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Barack",
+      "age": "59",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/8/8d/President_Barack_Obama.jpg"
+    },
+    {
+      "id": "4",
+      "fullName": "Son Goku",
+      "age": "48",
+      "picture": "https://observatoriodeseries.uol.com.br/wp-content/uploads/2020/05/Novo-Projeto-65.jpg",
+      "password": "teste222"
+    }
+  ]
+}
