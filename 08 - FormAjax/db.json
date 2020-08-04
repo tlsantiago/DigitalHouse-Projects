@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Andrew",
+      "location": "USA"
+    },
+    {
+      "id": 2,
+      "name": "Julio",
+      "location": "Canadá"
+    },
+    {
+      "id": "3",
+      "name": "Rafael",
+      "location": "Brasil"
+    },
+    {
+      "id": "3MyB9fG"
+    },
+    {
+      "id": "tNqb3fP"
+    },
+    {
+      "id": "4",
+      "name": "Thyago",
+      "location": "São Paulo"
+    },
+    {
+      "id": "5",
+      "name": "Darth Vader",
+      "location": "Death Star"
+    }
+  ]
+}
