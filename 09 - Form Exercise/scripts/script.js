@@ -11,7 +11,7 @@ function send() {
 
   if (id == '' || name == '' || lastName == '' || age == '' ||
     picture == '' || password == '' || passwordCheck == '') {
-    alert("Favor preencher todos os campos do formulário.")  
+    alert("Favor preencher todos os campos do formulário.")
 
   } else if (password !== passwordCheck) {
     alert("As senhas não conferem. Favor verificar")
@@ -32,11 +32,26 @@ function send() {
       },
 
       success: function () {
-        alert("Cadastro efetuado!");  
+        alert("Cadastro efetuado!");
       },
       error: function () {
         alert("Ocorreu um erro! Tente novamente.")
       },
     })
+  }
+}
+
+function changeColor(gender) {
+
+
+  if (gender == 'male') {
+    document.getElementById("subBody").style.background = 'rgba(51,0,51,0.2)';
+
+  } else if (gender == 'female') {
+    document.getElementById("subBody").style.background = 'rgba(255,102,0,0.2)';
+
+  } else {
+    document.getElementById("subBody").style.background = 'rgba(0,51,0,0.2)';
+
   }
 }
