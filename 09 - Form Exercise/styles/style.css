@@ -3,20 +3,26 @@
 
 ::-webkit-input-placeholder {
   text-align: center;
-  font-weight: bold;
-  color: black
+  color: wheat; 
+  font-weight: 900;
 }
 
 :-moz-placeholder { /* Firefox 18- */
   text-align: center;  
+  color: wheat; 
+  font-weight: 900;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-  text-align: center;  
+  text-align: center; 
+  color: wheat; 
+  font-weight: 900;
 }
 
 :-ms-input-placeholder {  
   text-align: center; 
+  color: wheat; 
+  font-weight: 900;
 }
 
 .navigate {
@@ -70,6 +76,11 @@ input[type=password] {
 
 .btn {
   width: 150px;
+}
+
+.btn-light {
+  width: 100px;
+  margin: 5px;
 }
 
 .form-check-inline {
@@ -130,6 +141,7 @@ input[type=password] {
   height: 300px;
   max-height: 300px;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .addDel {
