@@ -1,45 +1,20 @@
 {
   "characters": [
     {
-      "id": 1,
-      "name": "Walter White",
-      "age": 52,
-      "picture": "https://upload.wikimedia.org/wikipedia/en/6/65/Walter_White2.jpg"
-    },
-    {
-      "id": "2",
-      "name": "Darth Vader",
-      "age": "46",
-      "picture": "https://p2.trrsf.com/image/fget/cf/1200/1200/filters:quality(85)/images.terra.com/2018/12/04/armadura-de-darth-vader-abre.jpg"
-    },
-    {
-      "id": "3",
-      "name": "Barack",
-      "age": "59",
-      "picture": "https://upload.wikimedia.org/wikipedia/commons/8/8d/President_Barack_Obama.jpg"
-    },
-    {
-      "id": "4",
-      "fullName": "Son Goku",
-      "age": "48",
-      "picture": "https://observatoriodeseries.uol.com.br/wp-content/uploads/2020/05/Novo-Projeto-65.jpg",
-      "password": "teste222"
-    },
-    {
       "id": "5",
-      "fullName": "teste teste",
-      "age": "12",
-      "picture": "https://upload.wikimedia.org/wikipedia/commons/8/8d/President_Barack_Obama.jpg",
-      "password": "123",
-      "gender": "female"
+      "fullName": "R2- D2",
+      "age": "47",
+      "picture": "https://www.sideshow.com/storage/product-images/2172/r2-d2-deluxe_star-wars_feature.jpg",
+      "password": "r2d2",
+      "gender": "nonBinary"
     },
     {
-      "id": "6",
-      "fullName": "Thyago Lins",
-      "age": "27",
-      "picture": "https://scontent.fgru5-1.fna.fbcdn.net/v/t1.0-9/56178590_1955242071270219_100500125897457664_o.jpg?_nc_cat=105&_nc_sid=09cbfe&_nc_eui2=AeGvwai6-l0V-oHs1EgW6fAjn2cLrX7Db0KfZwutfsNvQterBP9Q8MH1aljXIacb4v_DmNfmsBuwk6A0BlpP8_3w&_nc_ohc=uoYDuphvbvwAX_ZM_S9&_nc_ht=scontent.fgru5-1.fna&oh=f4ff4acfa3407706a4b63a790079e2ba&oe=5F50EF14",
-      "password": "123",
-      "gender": "male"
+      "id": "9",
+      "fullName": "Stephen Hawking",
+      "age": "76",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Stephen_Hawking.StarChild.jpg",
+      "password": "12345",
+      "gender": "nonBinary"
     }
   ]
 }

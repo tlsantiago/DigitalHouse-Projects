@@ -1,3 +1,5 @@
+/*Criado usuários*/
+
 function send() {
 
   var id = document.getElementById('id').value;
@@ -21,7 +23,8 @@ function send() {
   /*Validação se algum campo foi deixado vazio*/
 
   if (id == '' || name == '' || lastName == '' || age == '' ||
-    picture == '' || password == '' || passwordCheck == '' || gender == '') {
+    picture == '' || password == '' || 
+    passwordCheck == '' || gender == '') {
     alert("Favor preencher todos os campos do formulário.")
 
   /*Validação da igualdade de senhas*/  
@@ -31,7 +34,6 @@ function send() {
   /*Transformando o nome e sobrenome em uma única string + requisição Ajax*/  
   } else {
     var fullName = `${name} ${lastName}`;
-
 
     $.ajax({
       method: "POST",
@@ -55,7 +57,6 @@ function send() {
   }
 }
 
-
 /*Trocar cor do fundo dependendo do gênero selecionado*/
 
 function changeColor(gender) {
@@ -72,3 +73,8 @@ function changeColor(gender) {
 
   }
 }
+
+
+
+
+

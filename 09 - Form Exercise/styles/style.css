@@ -3,6 +3,8 @@
 
 ::-webkit-input-placeholder {
   text-align: center;
+  font-weight: bold;
+  color: black
 }
 
 :-moz-placeholder { /* Firefox 18- */
@@ -17,6 +19,10 @@
   text-align: center; 
 }
 
+.navigate {
+  width: 100vw;
+}
+
 /*Styles*/
 body {
   background-image: url(/images/background.jpg);
@@ -27,8 +33,7 @@ body {
   height: 110vh;
 }
 
-header,
-.row {
+header {
   width: 100vw;
   font-size: 50px;
 }
@@ -57,13 +62,21 @@ input[type=text],
 input[type=number], 
 input[type=url], 
 input[type=password] {
-  width: 50%;
+  width: 60%;
   border: solid;
-  border-color: gray;
+  border-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .btn {
   width: 150px;
+}
+
+.form-check-inline {
+  width: 20px;
+  margin: -40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 
@@ -85,31 +98,67 @@ input[type=password] {
 
 /* CHECKED STYLES */
 [type=radio]:checked + img {
-  outline: 2px solid #f00;
+  outline: 2px solid white;
 }
 
 /*Users Page CSS*/
 
 .userContent {
   margin: 0 auto;
-  width: 50%;
+  width: 50vw;
   background-color: rgba(0, 0, 0, 0.2);
   padding: 10px;
 }
 
 .card {
-  max-width: 230px !important;
+  max-width: 300px !important;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: wheat;
+  margin-top: 10px !important;
+  
 }
 
 .character {
-  width: 30%;
+  width: 40%;
   max-width: 230px;
   margin: 0 auto;
   display: inline-block;
 }
+
 .charPic {
   width: 100%;
   height: 300px;
   max-height: 300px;
-  max-width: 230px;
+  margin-top: 10px;
+}
+
+.addDel {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.addDel a {
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.addDel a:hover {
+  text-decoration: none;
+}
+
+/* Query */
+
+@media (max-width: 1350px) {
+
+  .form-check-inline {
+    width: 20px;
+    margin: -10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
 }
