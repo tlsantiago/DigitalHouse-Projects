@@ -19,7 +19,6 @@ function send() {
       gender = gender[i].value;
     }
   }
-
   /*Validação se algum campo foi deixado vazio*/
 
   if (id == '' || name == '' || lastName == '' || age == '' ||
