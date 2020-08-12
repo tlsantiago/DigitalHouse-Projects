@@ -50,8 +50,10 @@ public class Exercicios {
 	    	    
 	    	    if(license ==  2) {
 	    	    	System.out.println("Você não pode dirigir.");
-	    	    } else {
+	    	    } else if(license == 1){
 	    	    	System.out.println("Pode dirigir!");
+	    	    } else {
+	    	    	System.out.println("Opção inválida!");
 	    	    }
 	    	} else {
 	    		System.out.println("Não pode dirigir!");
